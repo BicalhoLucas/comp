@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem1">
+
+            </div>
+            <div id="formulario">
+                <h1>LOGIN</h1>
+                <p> Seja muito bem vindo!! Faça login para acessar sua conta!! Ou clique <a href="#">aqui</a> para se cadastrar!</p>
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="ilogin" placeholder="Digite seu email" autocomplete="email" required maxlength="30">
+                    </div> 
+
+                        <div class="campo">
+                            <i class="material-icons">vpn_key</i>
+                            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha"
+                             autocomplete="current-password" required minlenght="8">  
+                        </div>
+
+                    <input type="submit" value="Entrar">
+                    <a href="trabalhandonisso.html" class="botao">Esqueci minha senha<i class="material-icons" >mail</i></a>
+                
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
